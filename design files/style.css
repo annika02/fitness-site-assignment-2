@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     color: white;
+    background-color: #000000;
+    background-blend-mode: multiply;
 }
 /* fonts */
 .inter-font {
@@ -14,8 +16,8 @@
 }
 
 /* 2nd font */
-.meie-script-regular {
-    font-family: "Meie Script", cursive;
+.miama {
+    font-family: 'Miama', sans-serif;                                             
     font-weight: 400;
     font-style: normal;
   }
@@ -31,7 +33,6 @@
 p{
     color: rgba(255, 255, 255, 0.5) ;
     font-size: 18px;
-    padding: 25px 0px 10px 0px;
 }
 
 
@@ -120,6 +121,7 @@ p{
 .banner-text P{
     width: 75%;
     font-size: 18px;
+    padding: 25px 0px 10px 0px;
 }
 .btn-container{
     width: 100%;
@@ -146,6 +148,7 @@ p{
 
 .container{
     width: 50%;
+    height: 100%;
     position: relative;
     display: flex;
     justify-content: center;
@@ -188,4 +191,61 @@ p{
     background-color: #ff4c00;
     border-radius: 50%;
     margin-right: 5px;
+}
+
+
+/* end banner */
+
+section{
+    margin-top: 100px;
+}
+
+.habits-container{
+    width: 80%;
+    height: 452px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    /* background-color: aqua; */
+}
+
+.habits-text{
+    width: 60%;
+    margin: 0 auto;
+    height: 28%;
+    border: #000000;
+    text-align: center;
+}
+
+.habits-card-container{
+    width: 100%;
+    height: 72%;
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 20px;
+
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+}
+
+.card-pic-container{
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-pic img{
+    border-radius: 50%;
+    width: 100%;
+}
+
+.card-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
 }

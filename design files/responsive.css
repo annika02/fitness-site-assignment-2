@@ -1,5 +1,6 @@
-/* header part for mobile */
+/* small device */
 @media screen and (max-width:576px){
+    /* header part  */
     .header{
         height: auto;
     }
@@ -29,11 +30,19 @@
         bottom: 70px;
         left: 50px;
     }
+    /* habits part */
+    .habits-container{
+        height: auto;
+    }
+    .habits-card-container{
+        
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 80px;
+    }
 
-
-
-
-
+    .card{
+        margin-top: 50px;
+    }
 
 
 
@@ -82,12 +91,26 @@
 
     .top {
         top: 150px;
-        left: 280px;
+        left: 500px;
     }
     
     .bottom {
         bottom: 70px;
-        left: 50px;
+        left: 250px;
+    }
+
+    /* habits part */
+    .habits-container{
+        height: auto;
+    }
+    .habits-card-container{
+        
+        grid-template-columns: repeat(2,1fr);
+        margin-top: 30px;
+    }
+
+    .card{
+        margin-top: 50px;
     }
 
 
