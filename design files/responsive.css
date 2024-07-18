@@ -1,0 +1,102 @@
+/* header part for mobile */
+@media screen and (max-width:576px){
+    .header{
+        height: auto;
+    }
+    .nav-hamburger-menu{
+        display: block;
+    }
+    .navbars{
+        display: none;
+    }
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-text-container{
+        width: 100%;
+        font-size: 36px;
+    }
+    .container{
+        width: 100%;
+    }
+
+    .top {
+        top: 150px;
+        left: 280px;
+    }
+    
+    .bottom {
+        bottom: 70px;
+        left: 50px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+/* medium device */
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .header{
+        height: auto;
+    }
+    .nav-hamburger-menu{
+        display: none;
+    }
+    .navbars{
+        display: block;
+    }
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-text-container{
+        width: 100%;
+        font-size: 36px;
+    }
+    .container{
+        width: 100%;
+    }
+
+    .top {
+        top: 150px;
+        left: 280px;
+    }
+    
+    .bottom {
+        bottom: 70px;
+        left: 50px;
+    }
+
+
+
+
+
+
+
+
+
+
+}

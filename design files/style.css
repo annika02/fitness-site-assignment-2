@@ -1,0 +1,191 @@
+*{  
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+/* fonts */
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+/* 2nd font */
+.meie-script-regular {
+    font-family: "Meie Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+/* color-1 */
+.color-1{
+    color: #E6533C;
+}
+/* color-2 */
+.color-2{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+p{
+    color: rgba(255, 255, 255, 0.5) ;
+    font-size: 18px;
+    padding: 25px 0px 10px 0px;
+}
+
+
+
+
+
+
+
+
+/* header part */
+.header{
+    width: 100%;
+    background-image: linear-gradient(#393939,rgba(0, 0, 0, 0.966));
+    height: 915px;
+    background-color: rgb(238, 238, 238);
+    color: white;
+}
+
+.navbar-container{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 900;
+    
+}
+
+.navbars{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    border: 2px solid #2E2E2E;
+    border-radius: 39px;
+    padding: 2px;
+}
+
+.navbars ul{
+    display: flex;
+    align-items: center;
+    border-radius: 39px;
+}
+
+.navbars ul li{
+    display: flex;
+    text-decoration: none;
+    margin-right: 25px;
+    
+}
+
+.button{
+    background-color: #E6533C;
+    border-radius: 39px;
+    color: white;
+    font-weight: 500;
+    padding: 5px 10px 5px 10px;
+    
+}
+
+.nav-hamburger-menu{
+    display: none;
+}
+
+.banner-container{
+    height: 85%;
+    display: flex;
+    
+}
+.banner-text-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.banner-text{
+    width: 80%;
+    height: 75%;
+}
+.banner-text h1{
+    width: 75%;
+    font-size: 78px;
+}
+.banner-text P{
+    width: 75%;
+    font-size: 18px;
+}
+.btn-container{
+    width: 100%;
+}
+
+.button-1{
+    background-color: #E6533C;
+    border: none;
+    border-radius: 42px;
+    color: white;
+    font-weight: 600;
+    padding: 10px 30px 10px 30px;
+    
+}
+.button-2{
+    background-color: #000000;
+    border: 2px solid white;
+    border-radius: 42px;
+    color: white;
+    font-weight: 600;
+    padding: 10px 30px 10px 30px;
+    
+}
+
+.container{
+    width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-pic img{
+    height: 100%;
+}
+
+.badge {
+    width: 170px;
+    position: absolute;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.top {
+    top: 250px;
+    left: 400px;
+}
+
+.bottom {
+    bottom: 90px;
+    left: 100px;
+}
+.the-button-with-red-dot{
+    display: flex;
+    flex-direction: column;
+}
+.red-dot {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #ff4c00;
+    border-radius: 50%;
+    margin-right: 5px;
+}
