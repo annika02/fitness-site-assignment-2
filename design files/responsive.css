@@ -45,12 +45,21 @@
     }
 
 
+    /* running part */
+    .Running{
+        height: auto;
+        flex-direction: column;
+    }
 
+    .Running-content{
+        width: 95%;
+        /* background-color: aqua; */
 
+    }
 
-
-
-
+    .Running-image{
+        width: 95%;
+    }
 
 
 
@@ -114,8 +123,15 @@
     }
 
 
+    /* running part */
+    .Running{
+        height: auto;
+    }
 
-
+    .Running-image img{
+        height: auto;
+       
+    }
 
 
 

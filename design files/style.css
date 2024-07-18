@@ -1,9 +1,8 @@
 *{  
     margin: 0;
     padding: 0;
-    color: white;
-    background-color: #000000;
-    background-blend-mode: multiply;
+    /* color: white;
+    background-color: #000000; */
 }
 /* fonts */
 .inter-font {
@@ -134,7 +133,7 @@ p{
     color: white;
     font-weight: 600;
     padding: 10px 30px 10px 30px;
-    
+    margin-top: 20px;
 }
 .button-2{
     background-color: #000000;
@@ -143,7 +142,7 @@ p{
     color: white;
     font-weight: 600;
     padding: 10px 30px 10px 30px;
-    
+    margin-top: 20px;
 }
 
 .container{
@@ -198,6 +197,8 @@ p{
 
 section{
     margin-top: 100px;
+    color: white;
+    background-color: #000000;
 }
 
 .habits-container{
@@ -248,4 +249,38 @@ section{
     flex-direction: column;
     text-align: center;
     align-items: center;
+}
+/* running */
+.Running{
+    width: 80%;
+    height: 380px;
+    margin: 0 auto;
+    background-color: #222222;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Running-content{
+    width: 40%;
+    /* background-color: aqua; */
+    padding: 40px;
+}
+.Running-content h1 {
+    font-size: 2em;
+    margin: 0 0 10px;
+}
+
+.Running-image{
+    width: 40%;
+    height: 100%;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.Running-image img{
+    width: 100%;
+    border-radius: 18px;
 }
