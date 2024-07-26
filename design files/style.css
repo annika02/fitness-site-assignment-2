@@ -194,11 +194,13 @@ p{
 
 
 /* end banner */
-
-section{
-    margin-top: 100px;
+main{
     color: white;
     background-color: #000000;
+}
+section{
+    margin-top: 100px;
+
 }
 
 .habits-container{
@@ -283,4 +285,100 @@ section{
 .Running-image img{
     width: 100%;
     border-radius: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+.footer-container{
+    width: 100%;
+    height: 400px;
+    border: 1px solid silver;
+    background-color: #2e2e2e;
+    margin-top: 100px;
+}
+
+.footer-title-text{
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-title-text-p1{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-title-text-p1 h3{
+    font-size: 35px;
+}
+.footer-title-text-p2-container{
+    width: 50%;
+    height: 100%;
+    padding-left: 0.5rem;
+    display: flex;
+}
+.footer-title-text-p2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-title-text-p2 h3 {
+    margin: 0 0 1rem 0;
+    color: #fff;
+}
+
+.footer-title-text-p2 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-title-text-p2 ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-title-text-p2 ul li a {
+    color:  rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+hr{
+    width: 80%;
+    margin: 0 auto;
+}
+.copyright{
+    width: 80%;
+    height: 20%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
