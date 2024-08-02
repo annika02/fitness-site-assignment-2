@@ -47,22 +47,32 @@
 
 
     /* running part */
-    .Running{
+    .Running {
         height: auto;
+    }
+
+    .Running-content, .Running-image {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    
+    /* BMI */
+    .bmi-container{
+        height: auto;
+    }
+    .bmi-table-form-container{
         flex-direction: column;
     }
-
-    .Running-content{
-        width: 95%;
-        /* background-color: aqua; */
-
+    .bmi-form-container{
+        padding: 0%;
     }
-
-    .Running-image{
-        width: 95%;
+    .bmi-table-container,.bmi-form-container{
+        width: 100%;
+        align-items: center;
+        margin-top: 10px;
     }
-
-
+    
 
     /* footer */
     .footer-container{
@@ -147,7 +157,18 @@
         height: auto;
     }
 
-    
+    /* BMI */
+    .bmi-container{
+        height: auto;
+    }
+    .bmi-table-form-container{
+        flex-direction: column;
+    }
+
+    .bmi-table-container,.bmi-form-container{
+        width: 100%;
+        align-items: center;
+    }
 
 
 
