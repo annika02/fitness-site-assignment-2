@@ -55,8 +55,13 @@
         width: 100%;
         padding-bottom: 10px;
     }
-
-    
+    /* training */
+    .first-row,.second-row{
+       grid-template-columns: repeat(2,1fr);
+    }
+    .second-row{
+        
+    }
     /* BMI */
     .bmi-container{
         height: auto;
@@ -70,10 +75,20 @@
     .bmi-table-container,.bmi-form-container{
         width: 100%;
         align-items: center;
-        margin-top: 10px;
+        margin-top: 15px;
     }
     
-
+    /* meet part */
+    .meet-container{
+        height: auto;
+    }
+    .meet-card-container{
+        margin-top: 15px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .cards{
+        height: 300px;
+    }
     /* footer */
     .footer-container{
         height: auto;
@@ -167,10 +182,14 @@
 
     .bmi-table-container,.bmi-form-container{
         width: 100%;
+        padding: 0%;
+        margin-top: 15px;
         align-items: center;
     }
-
-
+    /* meet part */
+    .meet-container{
+        height: auto;
+    }
 
     /* footer */
     .footer-container{
