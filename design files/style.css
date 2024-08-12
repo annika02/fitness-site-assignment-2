@@ -31,7 +31,10 @@ body{
 .color-2{
     color: rgba(255, 255, 255, 0.5);
 }
-
+/* color 3 */
+.color-3{
+    color: white;
+}
 p{
     color: rgba(255, 255, 255, 0.5) ;
     font-size: 18px;
@@ -277,16 +280,15 @@ section{
 
 .Running-image{
     width: 40%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 100%;    
+
 }
 
 .Running-image img{
     width: calc(100% - 40px);
     height: calc(100% - 40px);
-    border-radius: 16px;
+    padding: 20px;
+    border-radius: 38px;
     object-fit: cover;
 }
 
@@ -372,6 +374,7 @@ table{
 td{
     border: 2px solid #343434;
     padding: 15px;
+    color: rgba(255, 255, 255, 0.5)  ;
 }
 
 .bmi-form-container{
@@ -401,7 +404,7 @@ input{
     border-radius: 8px;
     border: 2px solid #343434;
     background-color: #3e3e3e;
-
+    color: #ffffff;
 }
 
 #sex{
@@ -421,6 +424,7 @@ input{
     border-radius: 8px;
     border: 2px solid #343434;
     background-color: #3e3e3e;
+    color: #ffffff;
 }
 
 /* meet part */
@@ -475,6 +479,33 @@ input{
     position: absolute;
     bottom: 10px;
 }
+
+/* premium */
+
+.premium-services {
+    background-color: #202020;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.premium-features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.premium-features .feature {
+    margin-top: 20px;
+    background-color: #474747;
+    border: 1px solid #000000;
+    padding: 20px;
+    border-radius: 8px;
+    width: 45%;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
 
 
 
