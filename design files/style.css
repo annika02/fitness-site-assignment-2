@@ -106,7 +106,6 @@ p{
 .banner-container{
     height: 85%;
     display: flex;
-    
 }
 .banner-text-container{
     width: 50%;
@@ -114,10 +113,12 @@ p{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+   
 }
 .banner-text{
     width: 80%;
     height: 75%;
+    
 }
 .banner-text h1{
     width: 75%;
@@ -162,31 +163,32 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .banner-pic img{
-    height: 100%;
+    width: 100%;
 }
 
 .badge {
-    width: 170px;
+    width: 120px;
     position: absolute;
     right: 10px;
     background-color: rgba(0, 0, 0, 0.7);
     padding: 10px 10px;
     border-radius: 10px;
-    font-size: 18px;
+    font-size: 12px;
     display: flex;
     align-items: center;
 }
 
 .top {
     top: 250px;
-    left: 400px;
+    left: 370px;
 }
 
 .bottom {
-    bottom: 90px;
+    bottom: 120px;
     left: 100px;
 }
 .the-button-with-red-dot{
