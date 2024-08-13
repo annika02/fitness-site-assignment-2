@@ -142,6 +142,9 @@ p{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.button:hover,.button-1:hover,.button-2:hover{
+    background-color: #000000;
+}
 .button-2{
     background-color: #000000;
     border: 2px solid white;
@@ -270,7 +273,7 @@ section{
 }
 
 .Running-content{
-    width: 40%;
+    width: calc(60% - 80px);
     padding: 40px;
 }
 .Running-content h1 {
@@ -288,8 +291,9 @@ section{
     width: calc(100% - 40px);
     height: calc(100% - 40px);
     padding: 20px;
-    border-radius: 38px;
-    object-fit: cover;
+    border-radius: 32px;
+    object-fit:cover;
+   
 }
 
 
@@ -299,20 +303,22 @@ section{
 .bmi-container{
     width: 100%;
     height: 550px;
-    background-color: #222222;
+   
 }
 
 .bmi-text{
-    width: 100%;
+    width: 60%;
     height: 20%;
+    margin: 0 auto;
     /* background-color: antiquewhite; */
-    text-align: center;
+    /* text-align: center; */
 }
 
 .bmi-table-form-container{
     width: 100%;
     height: 80%; 
     display: flex;
+    background-color: #222222;
 }
 
 .bmi-table-container{

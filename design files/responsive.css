@@ -49,18 +49,25 @@
     /* running part */
     .Running {
         height: auto;
+        flex-direction: column;
     }
 
-    .Running-content, .Running-image {
-        width: 100%;
-        padding-bottom: 10px;
+    .Running-content{
+        width: calc(100% - 80px);
     }
-    
+    .Running-image {
+        width: calc(100% - 5px);
+    }
     /* BMI */
     .bmi-container{
         height: auto;
     }
+    .bmi-text{
+       width: calc(100% - 30px);
+       padding: 15px;
+    }
     .bmi-table-form-container{
+        margin-top: 15px;
         flex-direction: column;
     }
     .bmi-form-container{
@@ -162,10 +169,10 @@
 
 
     /* running part */
-    .Running{
+    .Running {
         height: auto;
     }
-
+    
     /* BMI */
     .bmi-container{
         height: auto;
