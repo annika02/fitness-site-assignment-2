@@ -55,13 +55,7 @@
         width: 100%;
         padding-bottom: 10px;
     }
-    /* training */
-    .first-row,.second-row{
-       grid-template-columns: repeat(2,1fr);
-    }
-    .second-row{
-        
-    }
+    
     /* BMI */
     .bmi-container{
         height: auto;

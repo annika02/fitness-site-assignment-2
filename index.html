@@ -143,36 +143,7 @@
             </section>
 
 
-        <!-- Trainings and Exercises -->
-        <section>
-            <div class="Trainings-and-Exercises-container">
-                <div class="Trainings-and-Exercises-text-container">
-                    <h1>Trainings and Exercises</h1>
-                    <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
-                </div>
-
-
-                <div class="Trainings-and-Exercises-card-container">
-                    <div class="first-row">
-                        <img id="aqua" src="./images/exercise1.jpg" alt="">
-                        <h4>lorem</h4>
-                        <img id="red" src="./images/exercise2.png" alt="">
-                        <h4>lorem</h4>
-                        <img id="grey" src="./images/exercise3.png" alt="">
-                        <h4>lorem</h4>
-                       
-                    </div>
-                    <div class="second-row">
-                        <img src="./images/exercise4.png" alt="">
-                        <img src="./images/exercise5.jpg" alt="">
-                        <img src="./images/exercise6.jpg" alt="">
-                        <h4>lorem</h4>
-                        <h4>lorem</h4>
-                        <h4>lorem</h4>
-                    </div>
-                </div>
-            </div>    
-        </section>
+       
         
         <!--BMI  -->
 
@@ -231,14 +202,18 @@
 
                         <div class="form">
                             <form>
-                                <input type="text" name="height/cm" id="height" placeholder="Height/cm">
-                                <input type="text" name="weight/kg" id="weight" placeholder="Weight/cm">
-                                <input type="text" name="age" id="age" placeholder="Age">
-                                <select name="sex" id="sex">
+                                <div class="input-container">
+                                    <input type="text" name="height/cm" id="height" placeholder="Height/cm">
+                                    <input type="text" name="weight/kg" id="weight" placeholder="Weight/cm">
+                                </div>
+                                <div class="input-container">
+                                    <input type="text" name="age" id="age" placeholder="Age">
+                                    <select name="sex" id="sex">
                                     <option value="">Sex</option>
                                     <option value="male">Male</option>
                                     <option value="female">Female</option>
                                 </select>
+                                </div>
                                 <select name="activity" id="activity">
                                     <option value="">Select an activity factor</option>
                                     <option value="pushup">Pushup</option>
